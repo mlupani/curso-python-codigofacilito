@@ -33,3 +33,19 @@ print(person)
 person.popitem()
 
 print(person)
+
+#desempaquetado
+
+person = {
+    'name': 'Juan',
+    'lastname': 'Perez',
+    'age': 25,
+}
+
+name, lastname, age = person.values()
+
+print(name, lastname, age)
+
+
+
+
